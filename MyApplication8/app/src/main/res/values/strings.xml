@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">Settings</string>
+    <string name="hoge">hogehoge</string>
+    <string name="hogeui">ui input</string>
+    <string name="button">Button</string>
+</resources>
