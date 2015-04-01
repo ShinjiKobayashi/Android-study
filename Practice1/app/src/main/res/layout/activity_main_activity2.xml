@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kobashin.example.practice1.app.MainActivity2">
+
+    <ImageView
+        android:id="@+id/userIcon"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:text="User Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/userIcon"/>
+
+    <TextView
+        android:id="@+id/_userName"
+        android:text="User Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/userName"
+        android:layout_toEndOf="@+id/userIcon"/>
+
+    <TextView
+        android:id="@+id/userPhone"
+        android:text="Phone number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/userIcon"
+        android:layout_below="@+id/_userName"/>
+
+    <TextView
+        android:id="@+id/_userPhone"
+        android:text="+8190xxxxxxxx"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/userPhone"
+        android:layout_toEndOf="@+id/userIcon"/>
+
+
+    <TextView
+        android:id="@+id/userMailAddr"
+        android:text="Mail Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/userIcon"/>
+
+    <TextView
+        android:id="@+id/_userMailAddr"
+        android:text="kobashin@kobashin.sample.com"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/userMailAddr"/>
+
+    <TextView
+        android:id="@+id/userAddr"
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/_userMailAddr"/>
+
+    <TextView
+        android:id="@+id/_userAddr"
+        android:text="1-2-3-100 Osaka Japan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/userAddr"/>
+
+    <TextView
+        android:id="@+id/userMemo"
+        android:text="Memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/_userAddr"/>
+
+    <TextView
+        android:id="@+id/_userMemo"
+        android:text="texttexttexttexttexttext"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/userMemo"/>
+
+</RelativeLayout>
